@@ -1,6 +1,7 @@
 import tkinter as tk
 from tkinter import ttk
 
+
 def add_position():
     position = entry1.get()
     department = entry2.get()
@@ -17,7 +18,6 @@ def add_position():
     entry4.delete(0, tk.END)
     entry5.delete(0, tk.END)
     entry6.delete(0, tk.END)
-
 
 
 root = tk.Tk()
